@@ -1,0 +1,15 @@
+spring:
+  profiles:
+      active: dev
+
+---
+spring:
+  profiles: dev
+    applicaiton:
+      name: spring-config-dev
+
+---
+spring:
+  profiles: text
+    applicaiton:
+      name: spring-config-text
